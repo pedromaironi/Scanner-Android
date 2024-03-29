@@ -15,7 +15,7 @@
         android:layout_marginStart="12sp"
         android:layout_marginEnd="12sp"
         android:adjustViewBounds="true"
-        android:contentDescription="Icon"
+        android:contentDescription="@string/icon"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/ic_category_receipt" />
 
@@ -42,20 +42,22 @@
                 android:id="@+id/categoryLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:drawableLeft="@drawable/ic_dot"
+                android:drawableStart="@drawable/ic_dot"
                 android:drawablePadding="2dp"
-                android:paddingRight="10dp"
-                android:text="category"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"
+                android:text="@string/category"
                 android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/timeLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:drawableLeft="@drawable/ic_dot"
+                android:drawableStart="@drawable/ic_dot"
                 android:drawablePadding="2dp"
-                android:paddingLeft="10dp"
-                android:text="01-04-2019 22:10"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/_01_04_2019_22_10"
                 android:textSize="12sp" />
 
 
@@ -63,10 +65,11 @@
                 android:id="@+id/pageCount"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:drawableLeft="@drawable/ic_dot"
+                android:drawableStart="@drawable/ic_dot"
                 android:drawablePadding="2dp"
-                android:paddingLeft="10dp"
-                android:text="2 Pages"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="@string/_2_pages"
                 android:textSize="12sp" />
 
         </LinearLayout>

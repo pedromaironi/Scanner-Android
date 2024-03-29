@@ -1,4 +1,6 @@
+import com.google.gms.googleservices.GoogleServicesPlugin
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 31
@@ -25,6 +27,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
 }
 
 dependencies {
@@ -56,5 +59,11 @@ dependencies {
     //noinspection OutdatedLibrary
     implementation 'com.google.firebase:firebase-ml-vision:24.1.0'
 
+    //noinspection GradleDependency
+    implementation 'androidx.preference:preference:1.1.1'
+
     implementation 'gun0912.ted:tedpermission:2.2.2'
 }
+
+apply plugin: 'com.google.gms.google-services'
+GoogleServicesPlugin.config.disableVersionCheck = true

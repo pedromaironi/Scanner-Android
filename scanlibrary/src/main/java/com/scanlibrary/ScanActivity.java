@@ -27,6 +27,7 @@ public class ScanActivity extends Activity implements IScanner, ComponentCallbac
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 
+            Log.e("Error", "ScanActivity");
             // inside your activity (if you did not enable transitions in your theme)
             getWindow().requestFeature(Window.FEATURE_CONTENT_TRANSITIONS);
 
@@ -52,6 +53,8 @@ public class ScanActivity extends Activity implements IScanner, ComponentCallbac
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.add(R.id.content, fragment);
         fragmentTransaction.commit();
+        Log.e("Error", "ScanActivity.Init");
+
     }
 
     @Override
@@ -85,6 +88,8 @@ public class ScanActivity extends Activity implements IScanner, ComponentCallbac
         fragmentTransaction.add(R.id.content, fragment);
         //fragmentTransaction.addToBackStack(ScanFragment.class.toString());
         fragmentTransaction.commit();
+        Log.e("Error", "ScanActivity.onBitmapSelect");
+
     }
 
     @Override

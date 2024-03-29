@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "519387095249",
+    "project_id": "scanner-9dff6",
+    "storage_bucket": "scanner-9dff6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519387095249:android:bc9f1b571968ca008125f0",
+        "android_client_info": {
+          "package_name": "com.pedro.pdfscanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFHNDz5-iXX7ZRgSmRaLCzaoT6dyC6KR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519387095249:android:8d822cc6ef98d4e08125f0",
+        "android_client_info": {
+          "package_name": "com.pedro.pdfscanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFHNDz5-iXX7ZRgSmRaLCzaoT6dyC6KR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

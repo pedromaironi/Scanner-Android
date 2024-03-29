@@ -30,7 +30,7 @@
         android:text="@string/scan"
         android:textColor="@android:color/white"
         android:layout_centerHorizontal="true"
-        android:drawableStart="@drawable/ic_outline_navigate_next_24px"></Button>
+        android:drawableStart="@drawable/ic_outline_navigate_next_24px" />
 
     <Button
         android:id="@+id/rotateRight"
